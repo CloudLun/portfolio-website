@@ -12,7 +12,7 @@ const MainPage = () => {
   return (
     <div>
       <Header selectedPage={"main"} />
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2 mt-[100px] w-[100%]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-2 mt-[100px] w-[100%]">
         {projectData.map((data, index) => {
           return (
             <Card
