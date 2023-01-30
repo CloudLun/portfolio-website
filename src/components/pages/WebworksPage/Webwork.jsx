@@ -10,9 +10,9 @@ const Webwork = ({ title, img, link, githubLink }) => {
         <a className="font-[500]" href={link} target="_blank">
           {title}
         </a>
-        <a className="text-font-gray hover:text-black" href={githubLink} target="_blank">
+        {/* <a className="text-font-gray hover:text-black" href={githubLink} target="_blank">
           Github
-        </a>
+        </a> */}
       </div>
     </div>
   );
