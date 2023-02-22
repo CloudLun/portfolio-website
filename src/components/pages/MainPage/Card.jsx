@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Card = ({ cover, title, navigation }) => {
+const Card = ({ cover, title, navigation, projectType, websiteLink }) => {
   const [titleShown, setTitleShown] = useState(false);
 
   const handleTitleShown = () => {
@@ -9,24 +9,13 @@ const Card = ({ cover, title, navigation }) => {
 
   return (
     <div
-      className="relative flex justify-center items-center mb-[15px] w-[100%] aspect-video overflow-hidden cursor-pointer translate-y-2"
-      onMouseEnter={handleTitleShown}
-      onMouseLeave={handleTitleShown}
-      onClick={navigation}
+      className="mb-[15px] overflow-hidden cursor-pointer hover:translate-y-[-10px]"
+      onClick={navigation && navigation}
     >
-      <img
-        src={cover}
-        alt=""
-        className={`m-auto object-cover ${
-          titleShown === false ? "opacity-100" : "opacity-90"
-        }`}
-      />
-      <div
-        className={`absolute px-[5px] py-[3px] bg-white text-[18px] font-[500]  ${
-          titleShown === false ? "hidden" : "block"
-        }`}
-      >
-        {title}
+      <img src={cover} alt="" className="w-[100%] bg-contain" />
+      <div className="flex justify-between mt-[10px] text-[14px]">
+        <div className="font-[500]">{title}</div>
+        <div className="text-[#ff0317]">{projectType}</div>
       </div>
     </div>
   );

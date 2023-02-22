@@ -16,6 +16,9 @@ const Refugee = () => {
         title={refugeeData["title"]}
         subtitle={refugeeData["subtitle"]}
         link={refugeeData["githubLink"]}
+        contributor={refugeeData["contributor"]}
+        year={"2022"}
+        projectType="Data Visualization"
       >
         <p className="mb-[35px]">
           According to the UNHCR, in 2022, global forced displacement has risen
@@ -25,13 +28,13 @@ const Refugee = () => {
           overview of this miserable situation; The trajectories and bar charts
           show the paths and numbers of refugees originating from or heading to.
         </p>
-        <div>
-          <img src={refugeeData["cover"]} alt="" />
-          <img src={refugeeData["banner"]} alt="" className="my-[35px]"/>
-          <img src={refugeeData["img01"]} alt="" className="my-[35px]" />
-          <img src={refugeeData["img02"]} alt="" className="" />
-        </div>
       </ProjectContent>
+      <div>
+        <img src={refugeeData["cover"]} alt="" />
+        <img src={refugeeData["banner"]} alt="" className="my-[35px]" />
+        <img src={refugeeData["img01"]} alt="" className="my-[35px]" />
+        <img src={refugeeData["img02"]} alt="" className="" />
+      </div>
       <ProjectFooter index={2} />
     </>
   );

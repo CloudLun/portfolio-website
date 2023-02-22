@@ -15,6 +15,9 @@ const Ximen = () => {
         title={ximenData["title"]}
         subtitle={ximenData["subtitle"]}
         link={ximenData["githubLink"]}
+        contributor={ximenData["contributor"]}
+        year={"2022"}
+        projectType="Data Visualization"
       >
         <p className="mb-[35px]">
           COVID-19 has seriously impacted the Ximen shopping district. To help
@@ -27,11 +30,11 @@ const Ximen = () => {
           the district or community to develop a more precise marketing plan in
           order to have a more thorough preparation in the post-pandemic era.
         </p>
-        <div className="">
-          <img src={ximenData["cover"]} alt="" className="" />
-          <img src={ximenData["banner"]} alt="" className="my-[35px]" />
-        </div>
       </ProjectContent>
+      <div className="">
+        <img src={ximenData["cover"]} alt="" className="" />
+        <img src={ximenData["banner"]} alt="" className="my-[35px]" />
+      </div>
       <ProjectFooter index={1} />
     </>
   );

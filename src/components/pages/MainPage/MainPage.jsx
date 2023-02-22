@@ -2,9 +2,11 @@ import { React } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { projectData } from "../../../data/data";
+import { webworkData } from "../../../data/data";
 
 import Header from "../../Header";
 import Card from "./Card";
+import Webwork from "./Webwork";
 import Footer from "../../Footer";
 
 const MainPage = () => {
@@ -12,7 +14,7 @@ const MainPage = () => {
   return (
     <div>
       <Header selectedPage={"main"} />
-      <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-2 mt-[100px] w-[100%]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-10 my-[80px]">
         {projectData.map((data, index) => {
           return (
             <Card
@@ -20,11 +22,22 @@ const MainPage = () => {
               cover={data.cover}
               title={data.title}
               navigation={() => navigate(`/${data.navigation}`)}
+              projectType={data.projectType}
+            />
+          );
+        })}
+        {webworkData.map((data, index) => {
+          return (
+            <Webwork
+              key={index}
+              cover={data.cover}
+              title={data.title}
+              websiteLink={data.websiteLink}
+              projectType={data.projectType}
             />
           );
         })}
       </div>
-      <Footer />
     </div>
   );
 };

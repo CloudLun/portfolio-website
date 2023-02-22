@@ -16,8 +16,11 @@ const GenderTerm = () => {
         title={genderData["title"]}
         subtitle={genderData["subtitle"]}
         link={genderData["githubLink"]}
+        contributor={genderData["contributor"]}
+        year={'2022'}
+        projectType={'Data Visualization'}
       >
-        <p className="mb-[35px]">
+        <p className="">
           Knowing the importance of how language could be used to fight for
           gender equality, the UN woman creates a gender-inclusive lexicon that
           includes 650 terms to promote a gender-friendly context and
@@ -32,12 +35,12 @@ const GenderTerm = () => {
           speeches, so we can know how these terms are being used in certain
           kinds of contexts.
         </p>
-        <div>
-          <img src={genderData["section01"]} alt="" className="" />
-          <img src={genderData["section02"]} alt="" className="my-[35px]" />
-          <img src={genderData["section03"]} alt="" className="" />
-        </div>
       </ProjectContent>
+      <div className="">
+        <img src={genderData["section01"]} alt="" className="" />
+        <img src={genderData["section02"]} alt="" className="my-[35px]" />
+        <img src={genderData["section03"]} alt="" className="" />
+      </div>
       <ProjectFooter index={0} />
     </>
   );

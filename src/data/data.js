@@ -1,44 +1,3 @@
-export const webworksData = [
-  {
-    title: "Easybank Landing Page",
-    img: "https://upload.cc/i1/2023/01/18/Eky4WR.png",
-    link: "https://cloudlun.github.io/easybank-landing-page/",
-    githubLink: "https://github.com/CloudLun/easybank-landing-page",
-  },
-  {
-    title: "Space Tourism Website",
-    img: "https://upload.cc/i1/2023/01/18/IiQTWq.png",
-    link: "https://cloudlun.github.io/space-tourism-website/",
-    githubLink:
-      "https://github.com/CloudLun/space-tourism-website#space-tourism-website",
-  },
-  {
-    title: "Manage Landing Page",
-    img: "https://upload.cc/i1/2023/01/18/RHBj3O.png",
-    link: "https://cloudlun.github.io/manage-landing-page-master/",
-    githubLink:
-      "https://github.com/CloudLun/manage-landing-page-master/tree/main",
-  },
-  {
-    title: "Room Home Page",
-    img: "https://upload.cc/i1/2023/01/18/jvEtOQ.png",
-    link: "",
-    githubLink: "https://github.com/CloudLun/room-home-page/tree/main",
-  },
-  {
-    title: "Pet Planet Landing Page",
-    img: "https://upload.cc/i1/2023/01/18/RbEc71.png",
-    link: "https://cloudlun.github.io/pet-planet-landing-page/",
-    githubLink: "https://github.com/CloudLun/pet-planet-landing-page",
-  },
-  {
-    title: "Ecommerce Product Page",
-    img: "https://upload.cc/i1/2023/01/18/mBMWJ4.png",
-    link: "https://cloudlun.github.io/eccomerce-product-page/",
-    githubLink: "https://github.com/CloudLun/eccomerce-product-page",
-  },
-];
-
 export const infoData = [
   {
     category: "education",
@@ -99,7 +58,9 @@ export const projectData = [
     section02: "https://upload.cc/i1/2023/01/23/bluNhd.gif",
     section03: "https://upload.cc/i1/2023/01/23/Hdr5nG.gif",
     navigation: "gender",
-    githubLink: "https://cloudlun.github.io/gender-term/",
+    websiteLink: "https://cloudlun.github.io/gender-term/",
+    projectType: "Data Visualization",
+    contributor: ["Hao Lun Hung, Visualization, Development"],
   },
   {
     title: "Data Station Competition",
@@ -111,7 +72,13 @@ export const projectData = [
     img02: "https://upload.cc/i1/2023/01/23/0qmljW.png",
     img03: "https://upload.cc/i1/2023/01/23/SFLIKz.png",
     navigation: "ximen",
-    githubLink: "https://cloudlun.github.io/Ximen/",
+    websiteLink: "https://cloudlun.github.io/Ximen/",
+    projectType: "Data Visualization",
+    contributor: [
+      "Hao Che Hung, Project Lead, Researcher",
+      "Yu Ming Wu, Researcher, Editing",
+      "Hao Lun Hung, Visualization, Development",
+    ],
   },
   {
     title: "Desperate Journey",
@@ -121,7 +88,9 @@ export const projectData = [
     img01: "https://upload.cc/i1/2023/01/23/jr0RUk.png",
     img02: "https://upload.cc/i1/2023/01/23/TfdNBM.png",
     navigation: "refugee",
-    githubLink: "https://cloudlun.github.io/refugees-movement/",
+    websiteLink: "https://cloudlun.github.io/refugees-movement/",
+    projectType: "Data Visualization",
+    contributor: ["Hao Lun Hung, Visualization, Development"],
   },
   {
     title: "New Era of Internet Celebrity",
@@ -130,6 +99,59 @@ export const projectData = [
     cover: "https://upload.cc/i1/2023/01/22/Izcowq.gif",
     img01: "https://upload.cc/i1/2023/01/04/k9ISjN.png",
     navigation: "celebrity",
-    githubLink: "https://cloudlun.github.io/celebrity/",
+    websiteLink: "https://cloudlun.github.io/celebrity/",
+    projectType: "Data Visualization",
+    contributor: [
+      "Wan Ying Lin, Research Lead",
+      "Hao Lun Hung, Visualization, Development",
+    ],
   },
 ];
+
+export const webworkData = [
+  {
+    title: "Easybank Landing Page",
+    cover: "https://upload.cc/i1/2023/01/18/Eky4WR.png",
+    websiteLink: "https://cloudlun.github.io/easybank-landing-page/",
+    githubLink: "https://github.com/CloudLun/easybank-landing-page",
+    projectType: "Front End",
+  },
+  {
+    title: "Space Tourism Website",
+    cover: "https://upload.cc/i1/2023/01/18/IiQTWq.png",
+    websiteLink: "https://cloudlun.github.io/space-tourism-website/",
+    githubLink:
+      "https://github.com/CloudLun/space-tourism-website#space-tourism-website",
+    projectType: "Front End",
+  },
+  {
+    title: "Manage Landing Page",
+    cover: "https://upload.cc/i1/2023/01/18/RHBj3O.png",
+    websiteLink: "https://cloudlun.github.io/manage-landing-page-master/",
+    githubLink:
+      "https://github.com/CloudLun/manage-landing-page-master/tree/main",
+    projectType: "Front End",
+  },
+  {
+    title: "Pet Planet Landing Page",
+    cover: "https://upload.cc/i1/2023/01/18/RbEc71.png",
+    websiteLink: "https://cloudlun.github.io/pet-planet-landing-page/",
+    githubLink: "https://github.com/CloudLun/pet-planet-landing-page",
+    projectType: "Front End",
+  },
+  {
+    title: "Ecommerce Product Page",
+    cover: "https://upload.cc/i1/2023/01/18/mBMWJ4.png",
+    websiteLink: "https://cloudlun.github.io/eccomerce-product-page/",
+    githubLink: "https://github.com/CloudLun/eccomerce-product-page",
+    projectType: "Front End",
+  },
+];
+
+// {
+//   title: "Room Home Page",
+//   cover: "https://upload.cc/i1/2023/01/18/jvEtOQ.png",
+//   link: "",
+//   githubLink: "https://github.com/CloudLun/room-home-page/tree/main",
+//   projectType: "Front End",
+// },

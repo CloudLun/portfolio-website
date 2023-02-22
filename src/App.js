@@ -23,10 +23,10 @@ function App() {
       path: "/contact",
       element: <ContactPage />,
     },
-    {
-      path: "/webworks",
-      element: <WebworksPage />,
-    },
+    // {
+    //   path: "/webworks",
+    //   element: <WebworksPage />,
+    // },
     {
       path: "/gender",
       element: <GenderTerm />,

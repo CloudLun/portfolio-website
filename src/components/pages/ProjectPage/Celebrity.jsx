@@ -16,6 +16,9 @@ const Celebrity = () => {
         title={celebrityData["title"]}
         subtitle={celebrityData["subtitle"]}
         link={celebrityData["githubLink"]}
+        contributor={celebrityData["contributor"]}
+        year={"2022"}
+        projectType="Data Visualization"
       >
         <p className="mb-[35px]">
           The Internet celebrity’ has become a cultural phenomenon which changes
@@ -24,11 +27,11 @@ const Celebrity = () => {
           watching popular YouTube channels. This infographic is designed to
           show types of online celebrities followed by people of different ages
         </p>
-        <div>
+      </ProjectContent>
+      <div>
         <img src={celebrityData["cover"]} alt="" className="" />
         <img src={celebrityData["img01"]} alt="" className="my-[35px]" />
-        </div>
-      </ProjectContent>
+      </div>
       <ProjectFooter index={3} />
     </>
   );

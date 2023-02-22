@@ -34,9 +34,6 @@ const Header = ({ selectedPage }) => {
         <div className="cursor-pointer" onClick={navigateMain}>
           Projects
         </div>
-        <div className="cursor-pointer" onClick={navigateWebworks}>
-          Webworks
-        </div>
         <div className="cursor-pointer" onClick={navigateAbout}>
           About
         </div>
@@ -44,8 +41,9 @@ const Header = ({ selectedPage }) => {
           Contact
         </div>
       </div>
-      <div className="fixed top-[0px] flex justify-center items-center m-auto pt-[25px] w-[85%]">
-        <div className="absolute left-0 md:flex hidden gap-[18px] text-font-gray">
+      <div className="flex justify-between items-center m-auto pt-[25px]">
+        <div className="text-[20px] font-[700] tracking-wide">LUN HUNG</div>
+        <div className="md:flex hidden gap-[18px] text-font-gray">
           <div
             className={`cursor-pointer hover:text-black ${
               selectedPage === "main" ? "text-black" : "font-gray"
@@ -54,23 +52,6 @@ const Header = ({ selectedPage }) => {
           >
             Projects
           </div>
-          <div
-            className={`cursor-pointer hover:text-black ${
-              selectedPage === "webworks" ? "text-black" : "font-gray"
-            }`}
-            onClick={navigateWebworks}
-          >
-            Webworks
-          </div>
-        </div>
-        <div className="text-[18px] font-[700] tracking-wide">LUN HUNG</div>
-        <img
-          src={sidebarExpand ? close : hamburger}
-          alt="hamburger"
-          className="absolute right-0 md:hidden w-[24px] h-[24px] cursor-pointer"
-          onClick={handleClickIcon}
-        />
-        <div className="absolute right-0 md:flex hidden gap-[18px] text-font-gray">
           <div
             className={`cursor-pointer hover:text-black ${
               selectedPage === "about" ? "text-black" : "font-gray"
@@ -88,6 +69,12 @@ const Header = ({ selectedPage }) => {
             Contact
           </div>
         </div>
+        <img
+          src={sidebarExpand ? close : hamburger}
+          alt="hamburger"
+          className="absolute right-0 md:hidden w-[24px] h-[24px] cursor-pointer"
+          onClick={handleClickIcon}
+        />
       </div>
     </div>
   );
