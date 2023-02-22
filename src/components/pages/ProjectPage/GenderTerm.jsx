@@ -15,7 +15,7 @@ const GenderTerm = () => {
       <ProjectContent
         title={genderData["title"]}
         subtitle={genderData["subtitle"]}
-        link={genderData["githubLink"]}
+        link={genderData["websiteLink"]}
         contributor={genderData["contributor"]}
         year={'2022'}
         projectType={'Data Visualization'}

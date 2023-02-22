@@ -15,7 +15,7 @@ const Refugee = () => {
       <ProjectContent
         title={refugeeData["title"]}
         subtitle={refugeeData["subtitle"]}
-        link={refugeeData["githubLink"]}
+        link={refugeeData["websiteLink"]}
         contributor={refugeeData["contributor"]}
         year={"2022"}
         projectType="Data Visualization"

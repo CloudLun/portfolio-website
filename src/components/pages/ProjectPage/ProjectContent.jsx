@@ -27,7 +27,7 @@ const ProjectContent = ({
         <div className="md:order-2 font-[600] mt-[40px] mb-[80px] md:m-0">
           {contributor.map((data, index) => {
             return (
-              <div className="mb-[3px] md:mb-[5px]">
+              <div key={index} className="mb-[3px] md:mb-[5px]">
                 <p>{data}</p>
               </div>
             );

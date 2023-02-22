@@ -14,7 +14,7 @@ const Ximen = () => {
       <ProjectContent
         title={ximenData["title"]}
         subtitle={ximenData["subtitle"]}
-        link={ximenData["githubLink"]}
+        link={ximenData["websiteLink"]}
         contributor={ximenData["contributor"]}
         year={"2022"}
         projectType="Data Visualization"

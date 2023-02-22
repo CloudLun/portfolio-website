@@ -15,7 +15,7 @@ const Celebrity = () => {
       <ProjectContent
         title={celebrityData["title"]}
         subtitle={celebrityData["subtitle"]}
-        link={celebrityData["githubLink"]}
+        link={celebrityData["websiteLink"]}
         contributor={celebrityData["contributor"]}
         year={"2022"}
         projectType="Data Visualization"
