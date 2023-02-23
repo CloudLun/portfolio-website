@@ -51,12 +51,23 @@ export const infoData = [
 
 export const projectData = [
   {
-    title: "Gender Term: Language Placing Gender Equality",
+    title: "California Incarceration Trends",
+    subtitle: "Internship Project",
+    cover: "https://upload.cc/i1/2023/02/23/JWwQet.png",
+    img01: "https://upload.cc/i1/2023/02/23/zWxFmC.png",
+    img02: "https://upload.cc/i1/2023/02/23/lQOywM.png",
+    img03: "https://upload.cc/i1/2023/02/23/9nGsiR.png",
+    navigation: "california",
+    websiteLink: "https://trends.vera.org/state/CA",
+    projectType: "Data Visualization",
+    contributor: ["Jill Hubley, Project Lead, Visualization, Development","Hao Lun Hung, Visualization, Development"],
+  },
+  {
+    title: "Language Placing Gender Equality",
     subtitle: "UN Women online lexicon on the use of gender-inclusive language",
-    cover: "https://upload.cc/i1/2023/01/22/xgn6KI.gif",
-    section01: "https://upload.cc/i1/2023/01/23/ja4O0i.gif",
-    section02: "https://upload.cc/i1/2023/01/23/bluNhd.gif",
-    section03: "https://upload.cc/i1/2023/01/23/Hdr5nG.gif",
+    cover: "https://upload.cc/i1/2023/02/23/t1IJeF.gif",
+    img01: "https://upload.cc/i1/2023/02/23/2Jocuk.gif",
+    img02: "https://upload.cc/i1/2023/02/23/yFE0jg.png",
     navigation: "gender",
     websiteLink: "https://cloudlun.github.io/gender-term/",
     projectType: "Data Visualization",
@@ -66,11 +77,11 @@ export const projectData = [
     title: "Data Station Competition",
     subtitle:
       "Analytics of shipping area trend and target audience visualization tool",
-    cover: "https://upload.cc/i1/2023/01/22/mS7ynB.gif",
-    banner: "https://upload.cc/i1/2023/01/23/gaLjNF.gif",
+    cover: "https://upload.cc/i1/2023/02/23/OmhlQy.gif",
     img01: "https://upload.cc/i1/2023/01/04/k4qhVo.png",
     img02: "https://upload.cc/i1/2023/01/23/0qmljW.png",
     img03: "https://upload.cc/i1/2023/01/23/SFLIKz.png",
+    img04: "https://upload.cc/i1/2023/01/23/gaLjNF.gif",
     navigation: "ximen",
     websiteLink: "https://cloudlun.github.io/Ximen/",
     projectType: "Data Visualization",
@@ -83,10 +94,9 @@ export const projectData = [
   {
     title: "Desperate Journey",
     subtitle: "Movement of Global Refugees",
-    cover: "https://upload.cc/i1/2023/01/22/si7I61.gif",
-    banner: "https://upload.cc/i1/2023/01/23/3hBDS9.gif",
-    img01: "https://upload.cc/i1/2023/01/23/jr0RUk.png",
-    img02: "https://upload.cc/i1/2023/01/23/TfdNBM.png",
+    cover: "https://upload.cc/i1/2023/02/23/eWbivD.gif",
+    img01: "https://upload.cc/i1/2023/02/23/cgqFeM.gif",
+    img02: "https://upload.cc/i1/2023/02/23/suJKw6.gif",
     navigation: "refugee",
     websiteLink: "https://cloudlun.github.io/refugees-movement/",
     projectType: "Data Visualization",
@@ -95,8 +105,8 @@ export const projectData = [
   {
     title: "New Era of Internet Celebrity",
     subtitle:
-      "The data visualization inspired by OWL Consultant's Gen Z trends research",
-    cover: "https://upload.cc/i1/2023/01/22/Izcowq.gif",
+      "Inspired by OWL Consultant's Gen Z trends research",
+    cover: "https://upload.cc/i1/2023/02/23/DzZkhL.gif",
     img01: "https://upload.cc/i1/2023/01/04/k9ISjN.png",
     navigation: "celebrity",
     websiteLink: "https://cloudlun.github.io/celebrity/",
@@ -111,14 +121,14 @@ export const projectData = [
 export const webworkData = [
   {
     title: "Easybank Landing Page",
-    cover: "https://upload.cc/i1/2023/01/18/Eky4WR.png",
+    cover: "https://upload.cc/i1/2023/02/23/gYiodI.png",
     websiteLink: "https://cloudlun.github.io/easybank-landing-page/",
     githubLink: "https://github.com/CloudLun/easybank-landing-page",
     projectType: "Front End",
   },
   {
     title: "Space Tourism Website",
-    cover: "https://upload.cc/i1/2023/01/18/IiQTWq.png",
+    cover: "https://upload.cc/i1/2023/02/23/tHeyc9.png",
     websiteLink: "https://cloudlun.github.io/space-tourism-website/",
     githubLink:
       "https://github.com/CloudLun/space-tourism-website#space-tourism-website",
@@ -126,22 +136,15 @@ export const webworkData = [
   },
   {
     title: "Manage Landing Page",
-    cover: "https://upload.cc/i1/2023/01/18/RHBj3O.png",
+    cover: "https://upload.cc/i1/2023/02/23/ljutUC.png",
     websiteLink: "https://cloudlun.github.io/manage-landing-page-master/",
     githubLink:
       "https://github.com/CloudLun/manage-landing-page-master/tree/main",
     projectType: "Front End",
   },
   {
-    title: "Pet Planet Landing Page",
-    cover: "https://upload.cc/i1/2023/01/18/RbEc71.png",
-    websiteLink: "https://cloudlun.github.io/pet-planet-landing-page/",
-    githubLink: "https://github.com/CloudLun/pet-planet-landing-page",
-    projectType: "Front End",
-  },
-  {
     title: "Ecommerce Product Page",
-    cover: "https://upload.cc/i1/2023/01/18/mBMWJ4.png",
+    cover: "https://upload.cc/i1/2023/02/23/IhV2bx.png",
     websiteLink: "https://cloudlun.github.io/eccomerce-product-page/",
     githubLink: "https://github.com/CloudLun/eccomerce-product-page",
     projectType: "Front End",
@@ -153,5 +156,13 @@ export const webworkData = [
 //   cover: "https://upload.cc/i1/2023/01/18/jvEtOQ.png",
 //   link: "",
 //   githubLink: "https://github.com/CloudLun/room-home-page/tree/main",
+//   projectType: "Front End",
+// },
+
+// {
+//   title: "Pet Planet Landing Page",
+//   cover: "https://upload.cc/i1/2023/01/18/RbEc71.png",
+//   websiteLink: "https://cloudlun.github.io/pet-planet-landing-page/",
+//   githubLink: "https://github.com/CloudLun/pet-planet-landing-page",
 //   projectType: "Front End",
 // },

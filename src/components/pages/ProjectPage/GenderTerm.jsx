@@ -6,7 +6,7 @@ import Header from "../../Header";
 import ProjectContent from "./ProjectContent";
 import ProjectFooter from "./ProjectFooter";
 
-const genderData = projectData[0];
+const genderData = projectData[1];
 
 const GenderTerm = () => {
   return (
@@ -37,9 +37,9 @@ const GenderTerm = () => {
         </p>
       </ProjectContent>
       <div className="">
-        <img src={genderData["section01"]} alt="" className="" />
-        <img src={genderData["section02"]} alt="" className="my-[35px]" />
-        <img src={genderData["section03"]} alt="" className="" />
+        <img src={genderData["cover"]} alt="" className="" />
+        <img src={genderData["img01"]} alt="" className="my-[35px]" />
+        <img src={genderData["img02"]} alt="" className="" />
       </div>
       <ProjectFooter index={0} />
     </>

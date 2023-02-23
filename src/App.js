@@ -8,6 +8,7 @@ import Celebrity from "./components/pages/ProjectPage/Celebrity";
 import GenderTerm from "./components/pages/ProjectPage/GenderTerm";
 import Refugee from "./components/pages/ProjectPage/Refugee";
 import Ximen from "./components/pages/ProjectPage/Ximen";
+import California from "./components/pages/ProjectPage/California";
 
 function App() {
   const router = createBrowserRouter([
@@ -27,6 +28,10 @@ function App() {
     //   path: "/webworks",
     //   element: <WebworksPage />,
     // },
+    {
+      path:"/california",
+      element: <California/>
+    },
     {
       path: "/gender",
       element: <GenderTerm />,

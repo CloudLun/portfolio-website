@@ -6,7 +6,7 @@ import Header from "../../Header";
 import ProjectContent from "./ProjectContent";
 import ProjectFooter from "./ProjectFooter";
 
-const celebrityData = projectData[3];
+const celebrityData = projectData[4];
 
 const Celebrity = () => {
   return (
@@ -25,7 +25,9 @@ const Celebrity = () => {
           online behavior, especially in the younger generation. Instead of
           being fans of entertainers like actors or movie stars, they spend time
           watching popular YouTube channels. This infographic is designed to
-          show types of online celebrities followed by people of different ages
+          show types of online celebrities followed by people of different ages,
+          trying to depict the importance of Internet celebrities to the younger
+          generation
         </p>
       </ProjectContent>
       <div>

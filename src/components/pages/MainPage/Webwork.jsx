@@ -6,7 +6,7 @@ const Webwork = ({ title, cover, websiteLink, projectType }) => {
       <a href={websiteLink} target="_blank">
         <img src={cover} alt="" />
       </a>
-      <div className="flex justify-between mt-[10px] text-[14px]">
+      <div className="flex justify-between mt-[10px] text-[12px]">
         <a className="font-[500]" href={websiteLink} target="_blank">
           {title}
         </a>

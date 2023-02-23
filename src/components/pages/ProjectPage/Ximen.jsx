@@ -6,7 +6,7 @@ import Header from "../../Header";
 import ProjectContent from "./ProjectContent";
 import ProjectFooter from "./ProjectFooter";
 
-const ximenData = projectData[1];
+const ximenData = projectData[2];
 const Ximen = () => {
   return (
     <>
@@ -32,8 +32,9 @@ const Ximen = () => {
         </p>
       </ProjectContent>
       <div className="">
-        <img src={ximenData["cover"]} alt="" className="" />
-        <img src={ximenData["banner"]} alt="" className="my-[35px]" />
+        <img src={ximenData["img01"]} alt="" className="" />
+        <img src={ximenData["img02"]} alt="" className="my-[35px]" />
+        <img src={ximenData["img03"]} alt="" className="my-[35px]" />
       </div>
       <ProjectFooter index={1} />
     </>

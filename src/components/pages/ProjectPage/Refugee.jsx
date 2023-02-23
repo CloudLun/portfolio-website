@@ -6,7 +6,7 @@ import Header from "../../Header";
 import ProjectContent from "./ProjectContent";
 import ProjectFooter from "./ProjectFooter";
 
-const refugeeData = projectData[2];
+const refugeeData = projectData[3];
 
 const Refugee = () => {
   return (
@@ -31,9 +31,8 @@ const Refugee = () => {
       </ProjectContent>
       <div>
         <img src={refugeeData["cover"]} alt="" />
-        <img src={refugeeData["banner"]} alt="" className="my-[35px]" />
         <img src={refugeeData["img01"]} alt="" className="my-[35px]" />
-        <img src={refugeeData["img02"]} alt="" className="" />
+        <img src={refugeeData["img02"]} alt="" className="my-[35px]" />
       </div>
       <ProjectFooter index={2} />
     </>
