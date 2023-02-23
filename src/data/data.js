@@ -94,8 +94,8 @@ export const projectData = [
   {
     title: "Desperate Journey",
     subtitle: "Movement of Global Refugees",
-    cover: "https://upload.cc/i1/2023/02/23/eWbivD.gif",
-    img01: "https://upload.cc/i1/2023/02/23/cgqFeM.gif",
+    cover: "https://upload.cc/i1/2023/02/23/cgqFeM.gif",
+    img01: "https://upload.cc/i1/2023/02/23/UVTeDj.gif",
     img02: "https://upload.cc/i1/2023/02/23/suJKw6.gif",
     navigation: "refugee",
     websiteLink: "https://cloudlun.github.io/refugees-movement/",
