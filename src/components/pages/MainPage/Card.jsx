@@ -12,7 +12,7 @@ const Card = ({ cover, title, navigation, projectType, websiteLink }) => {
       className="mb-[15px] overflow-hidden cursor-pointer hover:translate-y-[-10px]"
       onClick={navigation && navigation}
     >
-      <img src={cover} alt="" className="" />
+      <img src={cover} alt="" className="cover" />
       <div className="flex justify-between mt-[10px] text-[12px]">
         <div className="font-[500]">{title}</div>
         <div className="text-[#ff0317]">{projectType}</div>

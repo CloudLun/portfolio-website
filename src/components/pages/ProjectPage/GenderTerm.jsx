@@ -41,7 +41,7 @@ const GenderTerm = () => {
         <img src={genderData["img01"]} alt="" className="my-[35px]" />
         <img src={genderData["img02"]} alt="" className="" />
       </div>
-      <ProjectFooter index={0} />
+      <ProjectFooter index={1} />
     </>
   );
 };

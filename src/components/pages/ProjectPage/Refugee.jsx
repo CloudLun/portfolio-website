@@ -34,7 +34,7 @@ const Refugee = () => {
         <img src={refugeeData["img01"]} alt="" className="my-[35px]" />
         <img src={refugeeData["img02"]} alt="" className="my-[35px]" />
       </div>
-      <ProjectFooter index={2} />
+      <ProjectFooter index={3} />
     </>
   );
 };

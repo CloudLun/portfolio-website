@@ -34,7 +34,7 @@ const Celebrity = () => {
         <img src={celebrityData["cover"]} alt="" className="" />
         <img src={celebrityData["img01"]} alt="" className="my-[35px]" />
       </div>
-      <ProjectFooter index={3} />
+      <ProjectFooter index={4} />
     </>
   );
 };

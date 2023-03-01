@@ -36,7 +36,7 @@ const Ximen = () => {
         <img src={ximenData["img02"]} alt="" className="my-[35px]" />
         <img src={ximenData["img03"]} alt="" className="my-[35px]" />
       </div>
-      <ProjectFooter index={1} />
+      <ProjectFooter index={2} />
     </>
   );
 };

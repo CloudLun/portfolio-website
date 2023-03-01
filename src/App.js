@@ -9,6 +9,7 @@ import GenderTerm from "./components/pages/ProjectPage/GenderTerm";
 import Refugee from "./components/pages/ProjectPage/Refugee";
 import Ximen from "./components/pages/ProjectPage/Ximen";
 import California from "./components/pages/ProjectPage/California";
+import CoLiving from "./components/pages/ProjectPage/CoLiving"
 
 function App() {
   const router = createBrowserRouter([
@@ -47,6 +48,10 @@ function App() {
     {
       path: "/celebrity",
       element: <Celebrity />,
+    },
+    {
+      path: "/coliving",
+      element: <CoLiving />,
     },
   ]);
   return (

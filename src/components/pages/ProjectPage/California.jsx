@@ -36,7 +36,7 @@ const California = () => {
         <img src={californiaData["img02"]} alt="" className="my-[35px]" />
         <img src={californiaData["img03"]} alt="" className="my-[35px]" />
       </div>
-      <ProjectFooter index={3} />
+      <ProjectFooter index={0} />
     </>
   );
 };

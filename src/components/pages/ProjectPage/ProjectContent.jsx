@@ -11,7 +11,7 @@ const ProjectContent = ({
 }) => {
   return (
     <div className="md:flex flex-col md:justify-between mt-[125px] mb-[200px] md:h-[720px]">
-      <div className="md:flex">
+      <div className="md:flex ">
         <div className="md:w-[50%]">
           <p className="mt-0 mb-[10px] text-[28px] font-[600] tracking-wide">
             {title}
@@ -23,7 +23,7 @@ const ProjectContent = ({
           <p>{projectType}</p>
         </div>
       </div>
-      <div className="md:flex md:items-center">
+      <div className="md:flex md:items-center md:justify-start">
         <div className="md:order-2 font-[600] mt-[40px] mb-[80px] md:m-0">
           {contributor.map((data, index) => {
             return (
