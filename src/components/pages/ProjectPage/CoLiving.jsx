@@ -6,7 +6,7 @@ import Header from "../../Header";
 import ProjectContent from "./ProjectContent";
 import ProjectFooter from "./ProjectFooter";
 
-const coLivingData = projectData[5];
+const coLivingData = projectData[6];
 
 const CoLiving = () => {
   return (
@@ -44,7 +44,7 @@ const CoLiving = () => {
         <img src={coLivingData["img02"]} alt="" className="my-[35px]" />
         <img src={coLivingData["img03"]} alt="" className="my-[35px]" />
       </div>
-      <ProjectFooter index={5} />
+      <ProjectFooter index={6} />
     </>
   );
 };

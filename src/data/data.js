@@ -113,6 +113,18 @@ export const projectData = [
     contributor: ["Hao Lun Hung, Visualization, Development"],
   },
   {
+    title: "New York City Noisescape",
+    subtitle: "311 Noise Complaints in NYC",
+    cover: "https://upload.cc/i1/2023/03/02/qrfQ2h.png",
+    img01: "https://upload.cc/i1/2023/03/02/ql17sU.png",
+    img02: "https://upload.cc/i1/2023/03/02/FsxZYH.png",
+    img03: "https://upload.cc/i1/2023/03/02/9uiw8s.png",
+    navigation: "noise",
+    websiteLink: "https://cloudlun.github.io/noise/",
+    projectType: "Data Visualization",
+    contributor: ["Hao Lun Hung, Visualization, Development"],
+  },
+  {
     title: "New Era of Internet Celebrity",
     subtitle: "Inspired by OWL Consultant's Gen Z trends research",
     cover: "https://upload.cc/i1/2023/02/23/DzZkhL.gif",
@@ -133,10 +145,11 @@ export const projectData = [
     img02: "https://upload.cc/i1/2023/03/02/pxyvnI.png",
     img03: "https://upload.cc/i1/2023/03/02/7VfmOC.png",
     navigation: "coliving",
-    websiteLink: "https://issuu.com/invisiblecities/docs/20201214_co-living_book_brief",
+    websiteLink:
+      "https://issuu.com/invisiblecities/docs/20201214_co-living_book_brief",
     projectType: "Data Visualization",
     contributor: [
-      "Hao Che Hung, Co-editor, Writer, Data Analysis, Data Visualization", 
+      "Hao Che Hung, Co-editor, Writer, Data Analysis, Data Visualization",
       "Hao Lun Hung, Writer, Data Visualization, Qualitative Research",
       "Xin Yi Xie, Qualitative Research, Scenario Design",
       "Yu Ming Wu, Qualitative Research, Scenario Design",

@@ -6,7 +6,7 @@ import Header from "../../Header";
 import ProjectContent from "./ProjectContent";
 import ProjectFooter from "./ProjectFooter";
 
-const celebrityData = projectData[4];
+const celebrityData = projectData[5];
 
 const Celebrity = () => {
   return (
@@ -34,7 +34,7 @@ const Celebrity = () => {
         <img src={celebrityData["cover"]} alt="" className="" />
         <img src={celebrityData["img01"]} alt="" className="my-[35px]" />
       </div>
-      <ProjectFooter index={4} />
+      <ProjectFooter index={5} />
     </>
   );
 };

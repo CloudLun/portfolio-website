@@ -9,7 +9,8 @@ import GenderTerm from "./components/pages/ProjectPage/GenderTerm";
 import Refugee from "./components/pages/ProjectPage/Refugee";
 import Ximen from "./components/pages/ProjectPage/Ximen";
 import California from "./components/pages/ProjectPage/California";
-import CoLiving from "./components/pages/ProjectPage/CoLiving"
+import CoLiving from "./components/pages/ProjectPage/CoLiving";
+import Noise from "./components/pages/ProjectPage/Noise";
 
 function App() {
   const router = createBrowserRouter([
@@ -30,8 +31,8 @@ function App() {
     //   element: <WebworksPage />,
     // },
     {
-      path:"/california",
-      element: <California/>
+      path: "/california",
+      element: <California />,
     },
     {
       path: "/gender",
@@ -44,6 +45,10 @@ function App() {
     {
       path: "/refugee",
       element: <Refugee />,
+    },
+    {
+      path: "/noise",
+      element: <Noise />,
     },
     {
       path: "/celebrity",
